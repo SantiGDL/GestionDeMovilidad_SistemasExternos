@@ -11,8 +11,8 @@ import java.util.UUID;
 @ApplicationScoped
 public class ServicioMedioPagoImpl implements ServicioMedioPago {
 
-    private static final String TARJETA_APROBADA = "1111111111111111";
-    private static final String TARJETA_RECHAZADA = "2222222222222222";
+    private static final String TARJETA_APROBADA = "11111111";
+    private static final String TARJETA_RECHAZADA = "22222222";
 
     private final Random random = new Random();
 
