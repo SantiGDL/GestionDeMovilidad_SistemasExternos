@@ -27,6 +27,7 @@ public class MedioPagoApi {
         return numeroTarjeta != null && numeroTarjeta.matches("\\d{8}");
     }
 
+    //http://localhost:8080/ServicioMedioPagoMock/api/medioPago/autorizar
     @POST
     @Path("/autorizar")
     public Response autorizarPago(PagoDTO pago) {
